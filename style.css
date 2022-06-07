@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    background: linear-gradient(to right, #f9c5d1, #9795ef);
+}
+.app {
+    background-color: rgba(255, 253, 253, 0.582);
+    border: 2px solid rgb(10, 10, 10);
+    padding: 5px;
+    margin: 5px;
+}
+.main-header {
+    display: flex;
+    /* background-color: rgba(255, 253, 253, 0.582); */
+    border: 2px solid rgb(10, 10, 10);
+    padding: 5px;
+    margin: 5px;
+    justify-content: flex-end;
+}
+
+.mini-h {
+    background-color: rgba(255, 253, 253, 0.582);
+    height: 45px;
+    width: 80px;
+    border: 2px solid rgb(10, 10, 10);
+    padding: 5px;
+    margin: 5px;
+}
+.main-body {
+    display: flex;
+    /* background-color: rgba(255, 253, 253, 0.582); */
+    border: 2px solid rgb(10, 10, 10);
+    padding: 5px;
+    margin: 5px;
+    justify-content: center;
+}
+
+.mini-b {
+    background-color: rgba(255, 253, 253, 0.582);
+    height: 400px;
+    width: 500px;
+    border: 2px solid rgb(10, 10, 10);
+    padding: 5px;
+    margin: 5px;
+}
+
+
+.under {
+    background-color: #f9c5d1;
+    height: 40px;
+    width: 500px;
+    border: 2px solid rgb(10, 10, 10);
+    padding: 0;
+    margin: 0;
+}
+.micro-body1 {
+    display: flex;
+    margin-top: 10px;
+}
+
+.micro-body-box {
+    display: flex;
+    background-color: rgba(255, 253, 253, 0.582);
+    border: 2px solid rgb(10, 10, 10);
+    padding: 0;
+    margin: 0;
+    height: 330px;
+}
+
+.mini-body2 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://cloudfront-us-east-1.images.arcpublishing.com/coindesk/XA6KIXE6FBFM5EWSA25JI5YAU4.jpg);
+}
+
+.main-footer {
+    display: flex;
+    /* background-color: rgba(255, 253, 253, 0.582); */
+    border: 2px solid rgb(10, 10, 10);
+    padding: 5px;
+    margin: 5px;
+    height: 330px;
+    align-items: center;
+    justify-content: space-evenly
+}
+
+.mini-f {
+    display: flex;
+    background-color: #9795ef;
+    height: 200px;
+    width: 200px;
+    border: 2px solid rgb(10, 10, 10);
+    padding: 0;
+    margin: 0;
+}
+
+.parentbox {
+    display: flex;
+    border: 2px solid rgb(10, 10, 10);
+    padding: 5px;
+    margin: 5px;
+    justify-content: space-around;
+}
+.childA, .childB, .childC {
+    display: flex;
+    height: 600px;
+    width: 300px;
+    border: 1px solid rgb(10, 10, 10);
+    padding: 0;
+    margin: 10px;
+}
+
+.parentA1 {
+    display: flex;
+    border: 1px solid rgb(10, 10, 10);
+    padding: 0px;
+    margin: 0px;
+    justify-content: space-around;
+    /* background-color: rgb(22, 51, 22); */
+}
+/* .childA1, .childA2, .childA3, .childA4,  .childA5, .childA6 {
+    height: 30px;
+    width: 30px;
+    border: 2px solid rgb(10, 10, 10);
+    padding: 5px;
+    margin: 5px;
+} */
+
+.parentA1 {
+  height: 600px;
+  width: 100%;
+  /* background-color: #2196F3; */
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+A
+}
+
+.parentA1 .row {
+    display: flex ;
+}
+
+.parentA1 .row .child{
+    height: 100px;
+}
+
+.parentA1 .row .child-a {
+
+    width: 50px;
+    background-color: #f9c5d1;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 5px;
+}
+.parentA1 .row .child-b {
+    width: 250px;
+    background-color: #9795ef;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 5px;
+}
+/* .childA1, .childA2, .childA3, .childA4, .childA5, .childA6 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 5px;
+  margin: 5px;
+} */
+
+.childB {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-repeat: repeat;
+    background-image: url(https://cloudfront-us-east-1.images.arcpublishing.com/coindesk/XA6KIXE6FBFM5EWSA25JI5YAU4.jpg);
+
+}
